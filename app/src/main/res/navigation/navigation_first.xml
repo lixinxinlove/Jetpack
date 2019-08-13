@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/navigation_first"
+            app:startDestination="@id/f1">
+
+    <fragment
+            android:id="@+id/f1"
+            android:name="com.lixinxinlove.jetpack.fragment.Fragment1"
+            android:label="LoginFragment"
+            tools:layout="@layout/fragment1">
+    </fragment>
+
+    <fragment
+            android:id="@+id/f2"
+            android:name="com.lixinxinlove.jetpack.fragment.Fragment2"
+            android:label="Fragment2"
+            tools:layout="@layout/fragment2">
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/f3"
+            android:name="com.lixinxinlove.jetpack.fragment.Fragment3"
+            android:label="Fragment3"
+            tools:layout="@layout/fragment3">
+
+    </fragment>
+
+
+</navigation>
