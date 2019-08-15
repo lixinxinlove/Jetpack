@@ -5,11 +5,22 @@
             android:id="@+id/navigation_first"
             app:startDestination="@id/f1">
 
+    <activity
+            android:id="@+id/home_activity"
+            android:name="com.lixinxinlove.jetpack.activity.HomeActivity"
+            tools:layout="@layout/activity_home">
+    </activity>
+
     <fragment
             android:id="@+id/f1"
             android:name="com.lixinxinlove.jetpack.fragment.Fragment1"
             android:label="LoginFragment"
             tools:layout="@layout/fragment1">
+
+        <action android:id="@+id/btn_other">
+            <argument android:name="name">lee</argument>
+        </action>
+
     </fragment>
 
     <fragment

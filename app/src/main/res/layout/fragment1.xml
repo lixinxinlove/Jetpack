@@ -9,7 +9,14 @@
     <Button
             android:id="@+id/btn_1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:text="Button1"/>
+
+    <Button
+            android:layout_marginTop="50dp"
+            android:id="@+id/btn_other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="跳转到其他页面"/>
 
 </FrameLayout>

@@ -38,5 +38,3 @@ dependencies {
     implementation "androidx.navigation:navigation-ui-ktx:$rootProject.navigationVersion"
     implementation 'com.airbnb.android:lottie:2.8.0'
 }
-
-
