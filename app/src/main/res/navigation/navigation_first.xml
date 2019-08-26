@@ -17,7 +17,7 @@
             android:label="LoginFragment"
             tools:layout="@layout/fragment1">
 
-        <action android:id="@+id/btn_other">
+        <action android:id="@+id/btn_other" app:destination="@id/home_activity">
             <argument android:name="name">lee</argument>
         </action>
 
